@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+        <h2 id="Formulario"><a href="./index.html"><img src="./discografia/img/arrow-left-solid.ico" alt="Flecha" width="30"></a> Vuelta al inicio</h2>    
+        <hr>
+        <center>
+            <h1>Formulario de inscripción newsletter</h1>
+            <form action="recepcion.php" method="get"> 
+                <label for="#nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre"><br><br>
+
+                <label for="#apellido1">Primer apellido:</label>
+                <input type="text" id="apellido1" name="apellido1" placeholder="Introduce tu primer apellido"><br><br>
+
+
+                <label for="#apellido2">Segundo apellido:</label>
+                <input type="text" id="apellido2" name="apellido1" placeholder="Introduce tu segundo apellido"><br><br>
+
+                <label for="#edad">Edad:</label>
+                <input type="text" id="edad" name="apellido1" placeholder="Introduce tu edad"><br><br>
+
+                <label for="#correo">Correo electronico:</label>
+                <input type="text" id="correo" name="correo" placeholder="Introduce tu correo"><br><br>
+
+                <br>
+
+                <label for="ciudad">Pais</label>
+                <select id="ciudad" name="ciudad">
+                    <option value="" disabled selected>Seleccione un pais</option>
+                    <option value="Barcelona">España</option>
+                    <option value="Madrid">Noruega</option>
+                    <option value="Valencia">Francia</option>
+                    <option value="Sevilla">China</option>
+                    <option value="Murcia">Portugal</option>
+                    <option value="Murcia">Suiza</option>
+                    <option value="Murcia">Italia</option>
+                    <option value="Murcia">Irlanda</option>
+
+                </select>
+                <br><br><br>
+
+                <fieldset>
+                    <legend>Nacionalidad</legend>
+                    <input type="checkbox"  id="espanola" name="Española" value="espanola">
+                    <label for="espanola">Española</label>
+                    
+                    <input type="checkbox"  id="espanola" name="Española" value="espanola">
+                    <label for="Noruega">Noruega</label>
+
+                    <input type="checkbox"  id="espanola" name="Española" value="espanola">
+                    <label for="Francesa">Francesa</label>
+
+                    <input type="checkbox"  id="espanola" name="Española" value="espanola">
+                    <label for="china">China</label>
+
+                    <input type="checkbox"  id="espanola" name="Española" value="espanola">
+                    <label for="Portuguesa">Portuguesa</label>
+
+                    <input type="checkbox"  id="espanola" name="Española" value="espanola">
+                    <label for="Suiza">Suiza</label>
+
+                    <input type="checkbox"  id="espanola" name="Española" value="espanola">
+                    <label for="Italiana">Italiana</label>
+
+                    <input type="checkbox"  id="espanola" name="Española" value="espanola">
+                    <label for="Irlandesa">Irlandesa</label>
+
+                </fieldset><br>
+
+
+                <label for="intereses">Intereses:</label><br>
+                <textarea name="intereses" id="intereses" cols="80" rows="4" placeholder="Introduce tus intereses"></textarea><br><br>
+
+                <br><br>
+                <button type="submit">Enviar datos</button>
+            </form>
+        </center>
+
+    </body>
+</html>
